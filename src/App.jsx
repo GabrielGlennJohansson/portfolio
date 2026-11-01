@@ -1,7 +1,9 @@
+import SiteHeader from "./components/site-header"
+
 function App() {
   return (
-    <h1>HEJ</h1>
+    <SiteHeader />
   )
 }
 
-export default App;
+export default App
