@@ -1,7 +1,9 @@
+import "../stylesheet/site-header.css"
+
 function SiteHeader() {
   return (
     <div className="header">
-        <div className="logo"></div>
+        <div className="available">Available for New Project</div>
         <nav className="menu">
             <a>About me</a>
             <a>Portfolio</a>
