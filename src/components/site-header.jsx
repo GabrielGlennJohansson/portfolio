@@ -9,7 +9,7 @@ function SiteHeader() {
             <a>Portfolio</a>
             <a>Services</a>
             <a>Blog</a>
-            <a className="book-call">Book A Call</a>
+            <a className="book-call">Book A Call ↗</a>
         </nav>
     </div>
   )
