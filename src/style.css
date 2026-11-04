@@ -1,8 +1,30 @@
-*{
+* {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
-body{
-  background-color: #FFFFFF;
+:root {
+  font-family: Inter, "Segoe UI", sans-serif;
+  color: #17251f;
+  background: #f4f3ed;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+
+  --color-paper: #f4f3ed;
+  --color-ink: #17251f;
+  --color-forest: #244b3e;
+  --color-muted: #78877c;
+  --color-lime: #d3ef82;
+}
+
+body {
+  min-width: 320px;
+  background-color: var(--color-paper);
+  color: var(--color-ink);
+}
+
+button,
+a {
+  font: inherit;
 }
