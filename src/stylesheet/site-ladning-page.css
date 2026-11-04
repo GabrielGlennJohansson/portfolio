@@ -17,12 +17,13 @@
     margin-inline: auto;
 
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
+    gap: 0.08em;
 
-    font-size: 11.8cqw;
+    font-size: 11cqw;
     font-weight: 700;
-    letter-spacing: -0.075em;
+    letter-spacing: 0em;
     line-height: 1;
     white-space: nowrap;
 
